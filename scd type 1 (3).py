@@ -1,6 +1,5 @@
 # Databricks notebook source
-from pyspark.sql.types import StructType, StructField, IntegerType, StringType, DoubleType
-from delta.tables import DeltaTable
+sel * from emp;
 
 # COMMAND ----------
 
