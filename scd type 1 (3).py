@@ -83,3 +83,8 @@ target_table = DeltaTable.forName(spark, "dim_employee")
 
 display(spark.sql("SELECT * FROM dim_employee ORDER BY emp_id"))
 
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select count(*) from dim_employee ORDER BY emp_id;
