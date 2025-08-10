@@ -87,4 +87,4 @@ display(spark.sql("SELECT * FROM dim_employee ORDER BY emp_id"))
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC select count(*) from dim_employee;
+# MAGIC select count(*) from dim_employee ORDER BY emp_id;
